@@ -1,0 +1,8 @@
+const qualityCheckDeliveredDate = new Date("2026-01-31"); // actual QC delivery date
+const deadline = new Date("2026-01-31");
+
+if (qualityCheckDeliveredDate <= deadline) {
+  console.log("Quality check delivered to Veol before 31. Promotion pakka.");
+} else {
+  console.log("Quality check not delivered to Veol before 31. Tapri band.");
+}
